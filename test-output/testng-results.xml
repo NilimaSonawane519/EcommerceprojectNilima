@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-28T15:11:30 IST" name="Suite" finished-at="2024-12-28T15:11:55 IST" duration-ms="24838">
+    <groups>
+    </groups>
+    <test started-at="2024-12-28T15:11:30 IST" name="homepagetest" finished-at="2024-12-28T15:11:38 IST" duration-ms="7431">
+      <class name="com.EcommercepageFactorys.tests.HomepageTestPF">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.EcommercepageFactorys.tests.HomepageTestPF@31bcf236]" started-at="2024-12-28T15:11:30 IST" name="setUp" finished-at="2024-12-28T15:11:34 IST" duration-ms="3530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegistration()[pri:1, instance:com.EcommercepageFactorys.tests.HomepageTestPF@31bcf236]" started-at="2024-12-28T15:11:34 IST" name="verifyRegistration" finished-at="2024-12-28T15:11:36 IST" duration-ms="1625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistration -->
+        <test-method signature="verifylogin()[pri:2, instance:com.EcommercepageFactorys.tests.HomepageTestPF@31bcf236]" started-at="2024-12-28T15:11:36 IST" name="verifylogin" finished-at="2024-12-28T15:11:38 IST" duration-ms="2216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommercepageFactorys.tests.HomepageTestPF@31bcf236]" started-at="2024-12-28T15:11:38 IST" name="tearDown" finished-at="2024-12-28T15:11:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.EcommercepageFactorys.tests.HomepageTestPF -->
+    </test> <!-- homepagetest -->
+    <test started-at="2024-12-28T15:11:38 IST" name="indexpagetest" finished-at="2024-12-28T15:11:47 IST" duration-ms="8654">
+      <class name="com.EcommercepageFactorys.tests.indexPageTestPF">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.EcommercepageFactorys.tests.indexPageTestPF@75f95314]" started-at="2024-12-28T15:11:38 IST" name="setUp" finished-at="2024-12-28T15:11:41 IST" duration-ms="2568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.EcommercepageFactorys.tests.indexPageTestPF@75f95314]" started-at="2024-12-28T15:11:41 IST" name="pageSetup" finished-at="2024-12-28T15:11:43 IST" duration-ms="2192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifycategories()[pri:1, instance:com.EcommercepageFactorys.tests.indexPageTestPF@75f95314]" started-at="2024-12-28T15:11:43 IST" name="verifycategories" finished-at="2024-12-28T15:11:43 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycategories -->
+        <test-method signature="verifyitemselect()[pri:2, instance:com.EcommercepageFactorys.tests.indexPageTestPF@75f95314]" started-at="2024-12-28T15:11:43 IST" name="verifyitemselect" finished-at="2024-12-28T15:11:43 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyitemselect -->
+        <test-method signature="verifyitems()[pri:3, instance:com.EcommercepageFactorys.tests.indexPageTestPF@75f95314]" started-at="2024-12-28T15:11:43 IST" name="verifyitems" finished-at="2024-12-28T15:11:43 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyitems -->
+        <test-method signature="verifyitemSelected()[pri:4, instance:com.EcommercepageFactorys.tests.indexPageTestPF@75f95314]" started-at="2024-12-28T15:11:43 IST" name="verifyitemSelected" finished-at="2024-12-28T15:11:44 IST" duration-ms="763" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [364bac06196639f14b8475ce0652438b, clickElement {id=f.3844946D7DDD9E12C304A59146902DB7.d.C529CD082DBDE9F0B6815EEB484DE7AA.e.128}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\nilim\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50679}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50679/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (364bac06196639f14b8475ce0652438b)] -> xpath: (//div[@id='tbodyid'])//div[@class='card-block']]
+Session ID: 364bac06196639f14b8475ce0652438b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [364bac06196639f14b8475ce0652438b, clickElement {id=f.3844946D7DDD9E12C304A59146902DB7.d.C529CD082DBDE9F0B6815EEB484DE7AA.e.128}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\nilim\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50679}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50679/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (364bac06196639f14b8475ce0652438b)] -> xpath: (//div[@id='tbodyid'])//div[@class='card-block']]
+Session ID: 364bac06196639f14b8475ce0652438b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.EcommercePageFactory.pages.indexpage.verifyitemSelected(indexpage.java:94)
+at com.EcommercepageFactorys.tests.indexPageTestPF.verifyitemSelected(indexPageTestPF.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyitemSelected -->
+        <test-method signature="launchAddtocart()[pri:5, instance:com.EcommercepageFactorys.tests.indexPageTestPF@75f95314]" started-at="2024-12-28T15:11:44 IST" name="launchAddtocart" finished-at="2024-12-28T15:11:46 IST" duration-ms="2085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAddtocart -->
+        <test-method signature="verifycartLink()[pri:6, instance:com.EcommercepageFactorys.tests.indexPageTestPF@75f95314]" started-at="2024-12-28T15:11:46 IST" name="verifycartLink" finished-at="2024-12-28T15:11:47 IST" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycartLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommercepageFactorys.tests.indexPageTestPF@75f95314]" started-at="2024-12-28T15:11:47 IST" name="tearDown" finished-at="2024-12-28T15:11:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.EcommercepageFactorys.tests.indexPageTestPF -->
+    </test> <!-- indexpagetest -->
+    <test started-at="2024-12-28T15:11:47 IST" name="cartpagetest" finished-at="2024-12-28T15:11:55 IST" duration-ms="8317">
+      <class name="com.EcommercepageFactorys.tests.cartPageTestPF">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.EcommercepageFactorys.tests.cartPageTestPF@4dd02341]" started-at="2024-12-28T15:11:47 IST" name="setUp" finished-at="2024-12-28T15:11:50 IST" duration-ms="2639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.EcommercepageFactorys.tests.cartPageTestPF@4dd02341]" started-at="2024-12-28T15:11:50 IST" name="pageSetup" finished-at="2024-12-28T15:11:52 IST" duration-ms="2238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifyplaceoder()[pri:1, instance:com.EcommercepageFactorys.tests.cartPageTestPF@4dd02341]" started-at="2024-12-28T15:11:52 IST" name="verifyplaceoder" finished-at="2024-12-28T15:11:55 IST" duration-ms="2757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyplaceoder -->
+        <test-method signature="verifypurchasedetailsandCheckout()[pri:2, instance:com.EcommercepageFactorys.tests.cartPageTestPF@4dd02341]" started-at="2024-12-28T15:11:55 IST" name="verifypurchasedetailsandCheckout" finished-at="2024-12-28T15:11:55 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypurchasedetailsandCheckout -->
+        <test-method signature="verifyPurchaseOrder()[pri:3, instance:com.EcommercepageFactorys.tests.cartPageTestPF@4dd02341]" started-at="2024-12-28T15:11:55 IST" name="verifyPurchaseOrder" finished-at="2024-12-28T15:11:55 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPurchaseOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EcommercepageFactorys.tests.cartPageTestPF@4dd02341]" started-at="2024-12-28T15:11:55 IST" name="tearDown" finished-at="2024-12-28T15:11:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.EcommercepageFactorys.tests.cartPageTestPF -->
+    </test> <!-- cartpagetest -->
+  </suite> <!-- Suite -->
+</testng-results>

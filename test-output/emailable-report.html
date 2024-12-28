@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">homepagetest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,431</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">indexpagetest</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,654</td><td></td><td></td></tr>
+<tr><td><a href="#t2">cartpagetest</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">8,317</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">10</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">24,402</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">homepagetest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.EcommercepageFactorys.tests.HomepageTestPF</td><td><a href="#m0">verifyRegistration</a></td><td rowspan="1">1735378894517</td><td rowspan="1">1625</td></tr><tr class="passedeven"><td><a href="#m1">verifylogin</a></td><td rowspan="1">1735378896161</td><td rowspan="1">2216</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">indexpagetest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.EcommercepageFactorys.tests.indexPageTestPF</td><td><a href="#m2">verifyitemSelected</a></td><td rowspan="1">1735378903846</td><td rowspan="1">763</td></tr><tr><th colspan="4">indexpagetest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.EcommercepageFactorys.tests.indexPageTestPF</td><td><a href="#m3">launchAddtocart</a></td><td rowspan="1">1735378904618</td><td rowspan="1">2085</td></tr><tr class="passedeven"><td><a href="#m4">verifycartLink</a></td><td rowspan="1">1735378906705</td><td rowspan="1">724</td></tr><tr class="passedeven"><td><a href="#m5">verifycategories</a></td><td rowspan="1">1735378903539</td><td rowspan="1">49</td></tr><tr class="passedeven"><td><a href="#m6">verifyitems</a></td><td rowspan="1">1735378903718</td><td rowspan="1">126</td></tr><tr class="passedeven"><td><a href="#m7">verifyitemselect</a></td><td rowspan="1">1735378903589</td><td rowspan="1">127</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">cartpagetest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.EcommercepageFactorys.tests.cartPageTestPF</td><td><a href="#m8">verifyPurchaseOrder</a></td><td rowspan="1">1735378915733</td><td rowspan="1">60</td></tr><tr class="passedeven"><td><a href="#m9">verifyplaceoder</a></td><td rowspan="1">1735378912357</td><td rowspan="1">2757</td></tr><tr class="passedeven"><td><a href="#m10">verifypurchasedetailsandCheckout</a></td><td rowspan="1">1735378915124</td><td rowspan="1">608</td></tr></tbody>
+</table>
+<h2>homepagetest</h2><h3 id="m0">com.EcommercepageFactorys.tests.HomepageTestPF#verifyRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.EcommercepageFactorys.tests.HomepageTestPF#verifylogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>indexpagetest</h2><h3 id="m2">com.EcommercepageFactorys.tests.indexPageTestPF#verifyitemSelected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [364bac06196639f14b8475ce0652438b, clickElement {id=f.3844946D7DDD9E12C304A59146902DB7.d.C529CD082DBDE9F0B6815EEB484DE7AA.e.128}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\nilim\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50679}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50679/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (364bac06196639f14b8475ce0652438b)] -&gt; xpath: (//div[@id=&apos;tbodyid&apos;])//div[@class=&apos;card-block&apos;]]
+Session ID: 364bac06196639f14b8475ce0652438b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.EcommercePageFactory.pages.indexpage.verifyitemSelected(indexpage.java:94)
+	at com.EcommercepageFactorys.tests.indexPageTestPF.verifyitemSelected(indexPageTestPF.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.EcommercepageFactorys.tests.indexPageTestPF#launchAddtocart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.EcommercepageFactorys.tests.indexPageTestPF#verifycartLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.EcommercepageFactorys.tests.indexPageTestPF#verifycategories</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.EcommercepageFactorys.tests.indexPageTestPF#verifyitems</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.EcommercepageFactorys.tests.indexPageTestPF#verifyitemselect</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>cartpagetest</h2><h3 id="m8">com.EcommercepageFactorys.tests.cartPageTestPF#verifyPurchaseOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.EcommercepageFactorys.tests.cartPageTestPF#verifyplaceoder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.EcommercepageFactorys.tests.cartPageTestPF#verifypurchasedetailsandCheckout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

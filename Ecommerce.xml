@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<listeners>
+<listener class-name="com.listeners.ExtentITestNGListeners"></listener>
+</listeners>
+ <test thread-count="5" name="homepagetest">
+    <classes>
+      
+      <class name="com.EcommercepageFactorys.tests.HomepageTestPF"/>
+      
+    </classes>
+  </test> <!-- Ecommerce -->
+  <test thread-count="5" name="indexpagetest">
+    <classes>
+      <class name="com.EcommercepageFactorys.tests.indexPageTestPF"/>
+     
+    </classes>
+  </test> <!-- Ecommerce -->
+ 
+  <test thread-count="5" name="cartpagetest">
+    <classes>
+     
+      <class name="com.EcommercepageFactorys.tests.cartPageTestPF"/>
+     
+    </classes>
+  </test> <!-- Ecommerce -->
+  
+</suite> <!-- Suite -->
